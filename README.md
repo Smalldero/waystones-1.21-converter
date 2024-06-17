@@ -24,4 +24,6 @@ This should fix [issue 851](https://github.com/TwelveIterationMods/Waystones/iss
 - Now you can edit the `convert-waystones-1.21.py` and test it with `python3 convert-waystones-1.21.py`
 
 ### Build
-- To build the executable run `pyinstaller --onefile --windowed convert-waystones-1.21.py`
+- To build the executable run `pyinstaller --onefile --windowed convert-waystones-1.21.py` on each platform
+- On mac you can also build the linux version with `pyinstaller --onefile --distpath dist/linux --workpath build/linux --specpath spec/linux convert-waystones-1.21.py´
+
