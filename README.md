@@ -5,7 +5,7 @@ This should fix [issue 851](https://github.com/TwelveIterationMods/Waystones/iss
 
 ## Usage
 
-*IMPORTANT*
+**IMPORTANT**
 The converter only works on the waystone file before the savegame was used in the newer version! In the new version the important data gets overwritten so the converter wont work anymore. So make sure to use a savefile where everything was still working.
 
 - Download one of the releases for your platform
@@ -28,5 +28,5 @@ The converter only works on the waystone file before the savegame was used in th
 
 ### Build
 - To build the executable run `pyinstaller --onefile --windowed convert-waystones-1.21.py` on each platform
-- On mac you can also build the linux version with `pyinstaller --onefile --distpath dist/linux --workpath build/linux --specpath spec/linux convert-waystones-1.21.py´
+- On mac you can also build the linux version with `pyinstaller --onefile --distpath dist/linux --workpath build/linux --specpath spec/linux convert-waystones-1.21.py`
 
