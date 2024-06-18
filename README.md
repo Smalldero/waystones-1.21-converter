@@ -9,7 +9,7 @@ This should fix [issue 851](https://github.com/TwelveIterationMods/Waystones/iss
 The converter only works on the waystone file before the savegame was used in the newer version! In the new version the important data gets overwritten so the converter wont work anymore. So make sure to use a savefile where everything was still working.
 
 - Download one of the releases for your platform
-- Create a backup of your `waystones.dat`! (`yourSavegameFolder/data/waystones.dat`)
+- Create a backup of your `waystones.dat` (`yourSavegameFolder/data/waystones.dat`) because I can not promise that the conversion will work! If it breaks you can at least revert it with the backup file.
 - Run the executable
 - Choose the filepath to the `waystones.dat` (`yourSavegameFolder/data/waystones.dat`)
 - Wait for the process to finish
