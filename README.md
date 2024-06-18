@@ -1,7 +1,7 @@
 # waystones-1.21-converter
 
 This is a small tool to convert the `waystones.dat` from the 1.20.1 (and maybe some other versions) Minecraft Mod [Waystones](https://github.com/TwelveIterationMods/Waystones) to 1.21.
-This should fix [issue 851](https://github.com/TwelveIterationMods/Waystones/issues/851)
+This should fix [issue 851](https://github.com/TwelveIterationMods/Waystones/issues/851) ("the waystone you tried to teleport to is currently being moved or has gone missing")
 
 ## Usage
 
